@@ -1,0 +1,11 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ss2021-foundations-flask"
+		}
+	],
+    "settings": {}
+}

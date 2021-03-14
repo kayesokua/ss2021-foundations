@@ -5,10 +5,7 @@ import logging
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
-
-app = Flask(__name__)
-if __name__=="__main__":
-    app.run(debug=True)
+from app import app
 
 db = SQLAlchemy()
 
@@ -18,14 +15,13 @@ CORS(app)
 
 db.init_app(app)
 
-@app.route('/')
-def pageHome():
-    return render_template('./index.html')
-
-#Dynamic URL names
 @app.route('/<string:page_name>')
 def htmlPage(page_name):
     return render_template(page_name, page_title=page_name)
+
+@app.route('/')
+def pageHome():
+    return render_template('./index.html')
 
 # #Writing to Text File
 # def write_to_file(data):
