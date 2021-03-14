@@ -1,7 +1,7 @@
-# Foundations of Software Engineering 🚧
+# SE01 + SE19 🚧
 This repository provides a collection of exercises from the Foundations course at CODE University.
 
-## Includes: 🚧
+## Includes:
 1. Color Check (/color.html)
 2. HTML form with Python backend (/about.html)
 3. Application of Jinja Template
