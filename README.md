@@ -21,5 +21,5 @@ To run the flask project:
 
 `flask run`
 
-2. Directory path issues: Data, controllers, tests create error when not in the mail directory
+2. Directory path issues: Data, controllers, tests create error when not in the main directory
 
